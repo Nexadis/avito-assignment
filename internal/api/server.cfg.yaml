@@ -1,0 +1,8 @@
+package: api
+generate:
+  echo-server: true
+  embedded-spec: true
+additional-imports:
+  - package: github.com/Nexadis/avito-assignment/internal/api/models
+    alias: .
+output: server.gen.go
